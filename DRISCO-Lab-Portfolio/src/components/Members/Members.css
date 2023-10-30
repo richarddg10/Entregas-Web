@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap');
+
+.global-member-div {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 51px;
+}
+
+.info-member-div {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.memberTittle {
+    font-family: 'Lato';
+    font-size: 20.8px;
+    font-weight: 500;
+    color: #818181;
+    margin: 0px;
+}
+
+.nameSpan {
+    color: #FF350F;
+    font-weight: bold;
+}
+
+.memberInfo {
+    font-family: 'Lato';
+    font-size: 16.64px;
+    font-weight: 400;
+    color: #818181;
+    width: 600px;
+    margin: 0px;
+}
+
+.extra-info-div {
+    display: flex;
+    flex-direction: row;
+    gap: 150px;
+}
+
+.skillsTittle {
+    display: flex;
+    flex-direction: column;
+    font-family: 'Lato';
+    font-size: 20.8px;
+    font-weight: 600;
+    color: #FF350F;
+    margin: 0px;
+    gap: 17px;
+}
+
+.skillsList {
+    font-family: 'Lato';
+    font-size: 16.64px;
+    font-weight: 400;
+    color: #818181;
+    margin: 0px;
+    padding-left: 15px;
+    width: 160px;
+}
+
+.contactMemberTittle {
+    display: flex;
+    flex-direction: column;
+    font-family: 'Lato';
+    font-size: 20.8px;
+    font-weight: 600;
+    color: #FF350F;
+    margin: 0px;
+    gap: 17px;
+}
+
+.contactSpan {
+    display: flex;
+    gap: 15px;
+}
+
+.contactSpan a img {
+    width: 36.62px;
+    height: 36.62px;
+}

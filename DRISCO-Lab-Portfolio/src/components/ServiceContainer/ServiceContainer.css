@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap');
+
+.service-div {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: #353434;
+    border-radius: 24.22px;
+    width: 446.45px;
+    height: 179.85px;
+}
+
+.serviceIcon-div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 24.22px;
+    width: 209.3px;
+    height: 179.85px;
+}
+
+.serviceIcon {
+    height: 80px;
+}
+
+.serviceText {
+    display: flex;
+    flex-direction: column;
+    font-family: 'Lato';
+    font-size: 20px;
+    font-weight: 400;
+    width: 185px;
+    gap: 16px;
+    margin-top: 0px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 0px;
+}
+
+.serviceTextSpan {
+    font-size: 10.35px;
+    color: white;
+}
