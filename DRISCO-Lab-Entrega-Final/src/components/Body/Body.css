@@ -1,0 +1,217 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap');
+
+.mainBackground {
+    background: linear-gradient(to top right, rgb(41, 39, 39), rgb(0, 0, 0));
+    width: 100%;
+    position: relative;
+    z-index: 0;
+}
+
+.mainBackgroundImg {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+}
+
+.mainBackground div {
+    display: flex;
+    flex-direction: column;
+}
+
+.introH1 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    font-family: 'Lato';
+    font-size: 3.32vw;
+    font-weight: 500;
+    color: #818181;
+    margin-top: 16.8vw;
+    margin-left: 9.38vw;
+    margin-bottom: 2.22vw;
+    gap: 0.486vw;
+}
+
+.logo {
+    height: 15.96vw;
+}
+
+.spanIntroH1 {
+    font-size: 1.15vw;
+    font-weight: 300;
+    width: 15vw;
+}
+
+.swapImg {
+    width: 2.37vw;
+    height: 2.57vw;
+    margin-top: 5.2vw;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 5.2vw;
+}
+
+@media screen and (max-width: 431px) {
+    .mainBackground {
+        height: 922px;
+    }
+
+    .mainBackground div {
+        justify-content: center;
+        align-items: center;
+    }
+
+    .globalBackgroundImg {
+        display: none;
+    }
+
+    .introH1 {
+        align-items: center;
+        text-align: center;
+        font-size: 11.32vw;
+        margin-top: 35vw;
+        margin-left: 0;
+        margin-bottom: 20.22vw;
+    }
+
+    .logo {
+        height: 52vw;
+    }
+
+    .spanIntroH1 {
+        font-size: 3.8vw;
+        width: 55vw;
+    }
+
+    .swapImg {
+        width: 8.37vw;
+        height: 8.57vw;
+        margin-top: 21.2vw;
+        margin-bottom: 0;
+    }
+}
+
+.about-us-div {
+    display: flex;
+    flex-direction: column;
+    background: linear-gradient(to top right, rgb(41, 39, 39), rgb(0, 0, 0));
+    width: 100%;
+}
+
+.aboutUsTittle {
+    display: flex;
+    justify-content: center;
+    font-family: 'Lato';
+    font-size: 11.05vw;
+    font-weight: bold;
+    text-align: center;
+    color: rgb(166, 163, 163, 0.10);
+    position: relative;
+    margin-top: 11.042vw;
+    margin-bottom: 12.85vw;
+}
+
+.aboutUsSpan {
+    font-size: 3.25vw;
+    color: #FF350F;
+    position: absolute;
+    top: 5.5vw;
+}
+
+.members-div {
+    display: flex;
+    flex-direction: column;
+    gap: 14.58vw;
+    margin-bottom: 11.042vw;
+}
+
+.our-projects-div {
+    display: flex;
+    flex-direction: column;
+    background: linear-gradient(to bottom right, rgb(41, 39, 39), rgb(0, 0, 0));
+    width: 100%;
+}
+
+.projectsTittle {
+    display: flex;
+    justify-content: center;
+    font-family: 'Lato';
+    font-size: 11.05vw;
+    font-weight: bold;
+    text-align: center;
+    color: rgb(166, 163, 163, 0.10);
+    position: relative;
+    margin-top: 11.042vw;
+    margin-bottom: 12.85vw;
+}
+
+.projectsTittleSpan {
+    font-size: 3.25vw;
+    color: #FF350F;
+    position: absolute;
+    top: 5.5vw;
+}
+
+.someProjects {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 4.1vw;
+    margin-bottom: 3.82vw;
+}
+
+@media screen and (max-width: 1200px) {
+    .someProjects {
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+}
+
+.someProjects figcaption {
+    display: none;
+}
+
+.services-div {
+    display: flex;
+    flex-direction: column;
+    background: linear-gradient(to top right, rgb(41, 39, 39), rgb(0, 0, 0));
+    width: 100%;
+}
+
+.servicesTittle {
+    display: flex;
+    justify-content: center;
+    font-family: 'Lato';
+    font-size: 11.05vw;
+    font-weight: bold;
+    text-align: center;
+    color: rgb(166, 163, 163, 0.10);
+    position: relative;
+    margin-top: 11.042vw;
+    margin-bottom: 12.85vw;
+}
+
+.servicesTittleSpan {
+    font-size: 3.25vw;
+    color: #FF350F;
+    position: absolute;
+    top: 5.5vw;
+}
+
+.someServices {
+    display: grid;
+    grid-template-columns: repeat(2, 0fr);
+    grid-gap: 5.38vw;
+    justify-content: center;
+    margin-bottom: 12.85vw;
+}
+
+@media screen and (max-width: 1100px) {
+    .someServices {
+        grid-template-columns: 0fr;
+    }
+}

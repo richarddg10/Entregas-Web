@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap');
+
+.global-member-div {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 3.55vw;
+}
+
+.info-member-div {
+    display: flex;
+    flex-direction: column;
+    gap: 1.37vw;
+}
+
+.memberTittle {
+    font-family: 'Lato';
+    font-size: 1.445vw;
+    font-weight: 500;
+    color: #818181;
+    margin: 0px;
+}
+
+.nameSpan {
+    color: #FF350F;
+    font-weight: bold;
+}
+
+.memberInfo {
+    font-family: 'Lato';
+    font-size: 1.155vw;
+    font-weight: 400;
+    color: #818181;
+    width: 41.7vw;
+    margin: 0px;
+}
+
+.extra-info-div {
+    display: flex;
+    flex-direction: row;
+    gap: 10.44vw;
+}
+
+.skillsTittle {
+    display: flex;
+    flex-direction: column;
+    font-family: 'Lato';
+    font-size: 1.445vw;
+    font-weight: 600;
+    color: #FF350F;
+    margin: 0px;
+    gap: 1.18vw;
+}
+
+.skillsList {
+    font-family: 'Lato';
+    font-size: 1.155vw;
+    font-weight: 400;
+    color: #818181;
+    margin: 0px;
+    padding-left: 1.04vw;
+    width: 11.13vw;
+}
+
+.contactMemberTittle {
+    display: flex;
+    flex-direction: column;
+    font-family: 'Lato';
+    font-size: 1.445vw;
+    font-weight: 600;
+    color: #FF350F;
+    margin: 0px;
+    gap: 1.18vw;
+}
+
+.contactSpan {
+    display: flex;
+    gap: 1.04vw;
+}
+
+.contactSpan a img {
+    width: 2.543vw;
+    height: 2.543vw;
+}

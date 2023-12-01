@@ -1,0 +1,258 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap');
+
+.btns {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-family: 'Lato';
+    font-weight: 500;
+    border: none;
+    cursor: pointer;
+}
+
+.btn-login {
+    background-color: #FF350F;
+    border-radius: 9.77px;
+    font-size: 13.68px;
+    width: 324.69px;
+    height: 55.52px;
+}
+
+.btn-google-login {
+    background-color: white;
+    color: black;
+    border-radius: 29.13px;
+    font-size: 13.68px;
+    width: 324.69px;
+    height: 55.52px;
+}
+
+.btn-facebook-login {
+    background-color: #3D6AD6;
+    color: white;
+    border-radius: 29.13px;
+    font-size: 13.68px;
+    width: 324.69px;
+    height: 55.52px;
+}
+
+.btn-apple-login {
+    background-color: black;
+    color: white;
+    border-radius: 29.13px;
+    font-size: 13.68px;
+    width: 324.69px;
+    height: 55.52px;
+}
+
+@media screen and (max-width: 650px) {
+    .btn-login {
+        border-radius: 1.5vw;
+        font-size: 2.1vw;
+        width: 49.95vw;
+        height:  8.54vw;
+    }
+    
+    .btn-google-login {
+        border-radius: 4.48vw;
+        font-size: 2.1vw;
+        width: 49.95vw;
+        height:  8.54vw;
+    }
+    
+    .btn-facebook-login {
+        border-radius: 4.48vw;
+        font-size: 2.1vw;
+        width: 49.95vw;
+        height:  8.54vw;
+    }
+    
+    .btn-apple-login {
+        border-radius: 4.48vw;
+        font-size: 2.1vw;
+        width: 49.95vw;
+        height:  8.54vw;
+    }
+}
+
+.btn-header-about-us {
+    display: block;
+    background-color: transparent;
+    font-size: 19px;
+}
+
+.btn-header-projects {
+    display: block;
+    background-color: transparent;
+    font-size: 19px;
+}
+
+.btn-header-services {
+    display: block;
+    background-color: transparent;
+    font-size: 19px;
+}
+
+.btn-header-contact {
+    display: block;
+    background-color: transparent;
+    font-size: 19px;
+}
+
+.btn-header-login {
+    display: block;
+    background-color: #485BFF;
+    border-radius: 8.26px;
+    padding: 15px;
+    font-size: 19px;
+}
+
+.btn-header-logout {
+    display: block;
+    background-color: #FF350F;
+    border-radius: 8.26px;
+    padding: 15px;
+    font-size: 19px;
+}
+
+@media screen and (max-width: 1100px) {
+    .btn-header-about-us {
+        font-size: 1.72vw;
+    }
+    
+    .btn-header-projects {
+        font-size: 1.72vw;
+    }
+    
+    .btn-header-services {
+        font-size: 1.72vw;
+    }
+    
+    .btn-header-contact {
+        font-size: 1.72vw;
+    }
+
+    .btn-header-login {
+        border-radius:  0.751vw;
+        padding: 1.36vw;
+        font-size: 1.72vw;
+    }
+    
+    .btn-header-logout {
+        border-radius:  0.751vw;
+        padding: 1.36vw;
+        font-size: 1.72vw;
+    }
+}
+
+@media screen and (max-width: 650px) {
+    .btn-header-about-us {
+        display: none;
+    }
+    
+    .btn-header-projects {
+        display: none;
+    }
+    
+    .btn-header-services {
+        display: none;
+    }
+    
+    .btn-header-contact {
+        display: none;
+    }
+}
+
+.btn-about-us {
+    background-color: #FF350F;
+    border-radius: 0.5vw;
+    width: 14.88vw;
+    height: 3.6vw;
+    font-size: 1.27vw;
+    margin-left: 9.38vw;
+}
+
+@media screen and (max-width: 431px) {
+    .btn-about-us {
+        border-radius: 1.8vw;
+        width: 61.88vw;
+        height: 9.8vw;
+        font-size: 3.6vw;
+        margin-left: 0;
+    }
+}
+
+.btn-add-project {
+    background-color: white;
+    border-radius: 7vw;
+    margin-left: auto;
+    margin-right: auto;
+    width: 44.11px;
+    height: 44.11px;
+}
+
+@media screen and (max-width: 845px) {
+    .btn-add-project {
+        width: 35px;
+        height: 35px;
+    }
+}
+
+.btn-all-projects {
+    background-color: transparent;
+    margin-top: 4.31vw;
+    margin-left: auto;
+    margin-right: 10.1vw;
+    margin-bottom: 8.4vw;
+    padding-left: 0;
+    padding-right: 0;
+}
+
+@media screen and (max-width: 845px) {
+    .btn-all-projects {
+        font-size: 11.14px;
+        gap: 5px;
+        margin-right: 10%;
+    }
+}
+
+.btn-submit {
+    background-color: #FF350F;
+    border-radius: 0.6vw;
+    width: 19.35vw;
+    height: 3.85vw;
+    font-size: 0.95vw;
+}
+
+@media screen and (max-width: 845px) {
+    .btn-submit {
+        border-radius: 0.98vw;
+        width: 61vw;
+        height: 6.58vw;
+        font-size: 1.62vw;
+    }
+}
+
+@media screen and (max-width: 413px) {
+    .btn-submit {
+        width: 51vw;
+    }
+}
+
+.btn-upload-files {
+    background-color: #FF350F;
+    border-radius: 7.43px;
+    width: 157.54px;
+    height: 38.15px;
+    font-size: 13.44px;
+}
+
+@media screen and (max-width: 650px) {
+    .btn-upload-files {
+        border-radius: 1.14vw;
+        width: 24.237vw;
+        height: 5.87vw;
+        font-size: 2.067vw;
+    }
+}

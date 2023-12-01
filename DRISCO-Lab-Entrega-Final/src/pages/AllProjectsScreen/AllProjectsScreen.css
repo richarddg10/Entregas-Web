@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap');
+
+.projects-screen-div {
+    display: flex;
+    flex-direction: column;
+    background: linear-gradient(to bottom right, rgb(41, 39, 39), rgb(0, 0, 0));
+    width: 100%;
+}
+
+.projectsScreenTittle {
+    color: #FF350F;
+    font-family: 'Lato';
+    font-size: 44.17px;
+    font-weight: 600;
+    margin-top: 224px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 70px;
+}
+
+.projects-div {
+    display: grid;
+    grid-template-columns: 321px 321px 321px;
+    justify-content: center;
+    gap: 60px;
+    margin-bottom: 154px;
+}
+
+@media screen and (max-width: 1200px) {
+    .projects-div {
+        grid-template-columns: 321px 321px;
+    }
+}
+
+@media screen and (max-width: 830px) {
+    .projects-div {
+        grid-template-columns: 321px;
+    }
+}
+
+@media screen and (max-width: 650px) {
+    .projectsScreenTittle {
+        font-size: 6.8vw;
+        margin-top: 34.46vw;
+        margin-bottom: 10.77vw;
+    }
+}
